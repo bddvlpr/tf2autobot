@@ -46,4 +46,4 @@ jobs:
         uses: docker/build-push-action@v3.1.0
         with:
           push: true
-          tags: tf2autobot/tf2autobot:${{ github.sha }}-${{ matrix.node }}
+          tags: bddvlpr/tf2autobot:${{ github.sha }}-${{ matrix.node }}
