@@ -495,7 +495,7 @@ export default class Bot {
         return new Promise((resolve, reject) => {
             void axios({
                 method: 'GET',
-                url: 'https://raw.githubusercontent.com/TF2Autobot/tf2autobot/master/package.json'
+                url: 'https://raw.githubusercontent.com/bddvlpr/tf2autobot/master/package.json'
             })
                 .then(response => {
                     /*eslint-disable */
