@@ -405,14 +405,14 @@ export default class Bot {
     }
 
     startVersionChecker(): void {
-        void this.checkForUpdates;
+        //void this.checkForUpdates;
 
         // Check for updates every 10 minutes
-        setInterval(() => {
+        /*setInterval(() => {
             this.checkForUpdates.catch(err => {
                 log.error('Failed to check for updates: ', err);
             });
-        }, 10 * 60 * 1000);
+        }, 10 * 60 * 1000);*/
     }
 
     get checkForUpdates(): Promise<{
