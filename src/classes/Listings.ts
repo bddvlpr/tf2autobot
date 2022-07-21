@@ -170,7 +170,7 @@ export default class Listings {
                     match[listing.intent === 0 ? 'buy' : 'sell']?.toValue(keyPrice.metal);
 
                 const isListingDetailsChanged =
-                    listing.details?.replace('[𝐀𝐮𝐭𝐨𝐤𝐞𝐲𝐬]', '') !== newDetails.replace('[𝐀𝐮𝐭𝐨𝐤𝐞𝐲𝐬]', '');
+                    listing.details?.replace('[🔑]', '') !== newDetails.replace('[🔑]', '');
 
                 if (isCurrenciesChanged || isListingDetailsChanged) {
                     if (showLogs) {
@@ -678,7 +678,7 @@ export default class Listings {
                 .replace(/%keyPrice%/g, '')
                 .replace(/%uses%/g, '');
             if (entry.name === 'Mann Co. Supply Crate Key' && this.bot.handler.autokeys.isEnabled) {
-                details = '[𝐀𝐮𝐭𝐨𝐤𝐞𝐲𝐬] ' + details;
+                details = '[🔑] ' + details;
             }
             //
         } else {

@@ -112,7 +112,7 @@ export class Entry implements EntryData {
         }
 
         if (entry.note) {
-            if (entry.note.buy?.includes('[𝐀𝐮𝐭𝐨𝐤𝐞𝐲𝐬]') || entry.note.sell?.includes('[𝐀𝐮𝐭𝐨𝐤𝐞𝐲𝐬]')) {
+            if (entry.note.buy?.includes('[🔑]') || entry.note.sell?.includes('[🔑]')) {
                 // temporary upgrade v2 -> v3
                 this.note = { buy: null, sell: null };
             } else {
