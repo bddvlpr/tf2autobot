@@ -31,7 +31,7 @@
                 ],
                 "KEEP": ["<steamid of person to keep in friendslist>"],
                 "ITEM_STATS_WHITELIST": [],
-                "GROUPS": ["103582791469033930"],
+                "GROUPS": [],
                 "ALERTS": ["trade", "version"],
 
                 "ENABLE_SOCKET": true,
