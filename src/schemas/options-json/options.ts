@@ -616,8 +616,7 @@ export const optionsSchema: jsonschema.Schema = {
                             type: 'boolean'
                         },
                         thresholdInSeconds: {
-                            type: 'integer',
-                            minimum: 86400 // 1 day
+                            type: 'integer'
                         },
                         excludeSKU: {
                             type: '#/definitions/string-array'
