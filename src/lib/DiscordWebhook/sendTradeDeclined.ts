@@ -136,7 +136,7 @@ export default async function sendTradeDeclined(
                                 : '') +
                             (misc.note
                                 ? (misc.showKeyRate || misc.showPureStock || misc.showInventory ? '\n' : '') + misc.note
-                                : `\n[View my backpack](https://backpack.tf/profiles/${botInfo.steamID.getSteamID64()})`)
+                                : `\n[View my backpack](https://next.backpack.tf/profiles/${botInfo.steamID.getSteamID64()})`)
                     }
                 ],
                 footer: {

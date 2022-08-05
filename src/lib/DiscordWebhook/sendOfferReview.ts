@@ -151,7 +151,7 @@ export default function sendOfferReview(
                                     ? `\n${cTTotalItems} ${currentItems}${slots !== undefined ? `/${slots}` : ''}`
                                     : '') +
                                 (isShowPureStock ? `\n${cTPureStock} ${pureStock.join(', ').toString()}` : '') +
-                                `\n[View my backpack](https://backpack.tf/profiles/${botInfo.steamID.getSteamID64()})`
+                                `\n[View my backpack](https://next.backpack.tf/profiles/${botInfo.steamID.getSteamID64()})`
                         }
                     ],
                     color: opt.embedColor

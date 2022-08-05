@@ -85,7 +85,7 @@ export default class MiscCommands {
         } else if (command === 'owner') {
             const firstAdmin = this.bot.getAdmins[0];
             const steamURL = `https://steamcommunity.com/profiles/${firstAdmin.toString()}`;
-            const bptfURL = `https://backpack.tf/profiles/${firstAdmin.toString()}`;
+            const bptfURL = `https://next.backpack.tf/profiles/${firstAdmin.toString()}`;
 
             this.bot.sendMessage(
                 steamID,
